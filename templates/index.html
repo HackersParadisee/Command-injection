@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Ping Tool</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h2>Network Diagnostic Tool</h2>
+
+<form method="POST" action="/ping">
+    <label>Enter Host or IP:</label>
+    <input type="text" name="target" placeholder="8.8.8.8">
+    <button type="submit">Ping</button>
+</form>
+
+<h3>Result</h3>
+
+<pre>
+{{ result }}
+</pre>
+
+</body>
+</html>
