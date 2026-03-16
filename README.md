@@ -16,3 +16,22 @@ This project is meant for educational purposes only.
 - Demonstrates command injection attacks
 
 ## Project Structure
+
+```
+command-injection-demo/
+│
+├── app.py
+├── requirements.txt
+│
+├── templates/
+│ index.html
+│
+└── static/
+style.css
+```
+
+## Install Dependancies 
+
+```
+pip install -r requirements.txt
+```
